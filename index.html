@@ -210,8 +210,17 @@
         <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
+            <strong>Llama-2-7B-Chat.</strong>
+            <strong>High fluency</strong> jailbreaks
+            (<em>ColdAttack</em>, <em>PI</em>) stay close to
+            <u>harmful</u> embedding subspace, yielding large loss variation
+            and strong gradient matching.
+            <strong>Low fluency</strong> attacks
+            (<em>Adaptive</em>) shift toward
+            <u>safe</u> (harmless) regions, producing smaller loss variations
+            and lower gradient similarity.
+            This representational drift explains the differing effectiveness
+            of the gradient matching method across attack types.
           </p>
         </div>
         <div class="content has-text-centered">
