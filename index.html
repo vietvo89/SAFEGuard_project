@@ -177,28 +177,56 @@
 <section class="section">
   <div class="container is-max-desktop">
   <h2 class="title is-3">Analysis</h2>
+    
+    <!-- JSD + PPL Demonstration. -->
     <div class="columns is-centered">
-      <!-- Visual Effects. -->
+      <div class="column is-full-width">
+        <!-- JSD versus Perplexity. -->
+        <h3 class="title is-4">JSD versus Perplexity Demonstration</h3>
+        <div class="content has-text-justified">
+          <p>
+            JSD versus Perplexity Demonstration for an Adaptive Jailbreak Prompt.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img
+              src="./static/images/adaptive_jailbreak_prompt.png"
+              alt="Large result"
+              class="large-result-image"
+          >
+          <img
+              src="./static/images/JSD_vs_PPL_every_token_adaptive_attack.png"
+              alt="Large result"
+              class="large-result-image"
+          >
+        </div>
+        <!--/ JSD versus Perplexity. -->
+
+      </div>
+    </div>
+    <!--/ JSD + PPL Demonstration. -->
+
+    <div class="columns is-centered">
+      <!-- Gradient Matching and Loss Variation. -->
       <div class="column">
         <div class="content">
           <h2 class="title is-5">Gradient Matching and Loss Variation</h2>
           <div class="column content">
             <p>
-              The gradient matching of interest is proportional to the loss variation.
-              It shows that if an input prompt
-              $\boldsymbol{x}$ and harmful reference prompts
+              The gradient matching of interest defined in our paper <strong>(Section 4.2.1)</strong> is proportional to the loss variation.
+              It shows that if an input prompt $\boldsymbol{x}$ and harmful reference prompts
               $\hat{\boldsymbol{x}} \in \mathcal{D}_{\text{harm}}$
               share higher gradient similarity, the update from
               $\theta$ to $\tilde{\theta}$ exerts a stronger influence on
               $\boldsymbol{x}$, thereby leading to a larger variation in loss
-              as shown in Figures.
+              as shown in Figure 1.
             </p>
           </div>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+      <!--/ Gradient Matching and Loss Variation. -->
 
-      <!-- Matting. -->
+      <!-- Loss Variation and Representation Shift. -->
       <div class="column">
         <h2 class="title is-5">Loss Variation and Representation Shift</h2>
         <div class="columns is-centered">
@@ -222,16 +250,16 @@
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
+    <!--/ Loss Variation and Representation Shift. -->
 
-    <!-- Analysis. -->
+    <!-- Demonstration and visualisation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
         <!-- Gradient matching. -->
         <h3 class="title is-4">Gradient Matching</h3>
         <div class="content has-text-justified">
           <p>
-            Figure 1: <strong>Llama-2-7B-Chat.</strong>
+            <strong>Figure 1: Llama-2-7B-Chat.</strong>
             <strong>High fluency</strong> jailbreaks
             (<em>ColdAttack</em>, <em>PI</em>) stay close to
             <u>harmful</u> embedding subspace, yielding large loss variation
@@ -251,11 +279,11 @@
               class="large-result-image"
           >
         </div>
-        <!--/ Gradient matching. -->
+        <!--/ Gradient Matching. -->
 
       </div>
     </div>
-    <!--/ Analysis. -->
+    <!--/ Demonstration and visualisation. -->
   </div>
 </section>
 
