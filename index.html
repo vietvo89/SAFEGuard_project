@@ -39,6 +39,20 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <!-- MathJax: add this in your <head> -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+
+  <script
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 </head>
 <body>
 
@@ -164,11 +178,11 @@
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
-
+    <h2 class="title is-3">Analysis</h2>
       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Gradient Matching and Loss Variation</h2>
+          <h2 class="title is-4">Gradient Matching and Loss Variation</h2>
           <div class="notification gradient-matching-box">
             <p>
               The gradient matching of interest is proportional to the loss variation.
@@ -187,7 +201,7 @@
 
       <!-- Matting. -->
       <div class="column">
-        <h2 class="title is-3">Loss Variation and Representation Shift</h2>
+        <h2 class="title is-4">Loss Variation and Representation Shift</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
@@ -208,8 +222,6 @@
     <!-- Analysis. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Analysis</h2>
-
         <!-- Gradient matching. -->
         <h3 class="title is-4">Gradient Matching</h3>
         <div class="content has-text-justified">
