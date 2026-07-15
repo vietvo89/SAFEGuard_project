@@ -1,6 +1,6 @@
 ## README
 
-This is for releasing the source code of the paper [SAFEGuard: Detect Optimization-Based Jailbreak Atacks Through Harmful Semantic Analysis and Fluency Measurement](https://...)
+This is for releasing the source code of the paper [SAFEGuard: Detect Optimization-Based Jailbreak Atacks Through Harmful Semantic Analysis and Fluency Measurement](https://openreview.net/pdf?id=ZTwVGteRd9)
 
 ### Abstract
 
@@ -21,10 +21,10 @@ underscores the effectiveness of SAFEGuard against evolving jailbreak attacks.
 
 If you find our research useful for your work please cite:
 ```
-@article{Vo2026
+@inproceedings{Vo2026
   author    = {Quoc Viet Vo, Trung Le, Damith R. and , Ehsan A.},
   title     = {SAFEGuard: Detect Optimization-Based Jailbreak Atacks Through Harmful Semantic Analysis and Fluency Measurement},
-  journal   = {EMNLP},
+  journal   = {Arxiv},
   year      = {2026},
 }
 ```
