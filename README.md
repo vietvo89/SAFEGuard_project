@@ -24,7 +24,7 @@ If you find our research useful for your work please cite:
 @inproceedings{Vo2026
   author    = {Quoc Viet Vo, Trung Le, Damith R. and , Ehsan A.},
   title     = {SAFEGuard: Detect Optimization-Based Jailbreak Atacks Through Harmful Semantic Analysis and Fluency Measurement},
-  journal   = {Arxiv},
+  journal   = {Empirical Methods in Natural Language Processing (EMNLP)},
   year      = {2026},
 }
 ```
